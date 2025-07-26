@@ -6,9 +6,7 @@ This project is a complete frontend recreation of the Zerodha trading platform, 
 Key Elements
 
   - 🎯 Pixel-perfect design - Matches original Zerodha aesthetics
-  
   -📱 Mobile-first approach - Responsive across all devices
-  
   -⚡ Lightning fast - No heavy frameworks, pure vanilla JS
   - 🎨 Modern UI/UX - Contemporary design principles
   - 🔧 Production-ready code - Clean, maintainable structure
