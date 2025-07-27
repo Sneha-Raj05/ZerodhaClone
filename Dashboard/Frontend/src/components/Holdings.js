@@ -6,8 +6,9 @@ import GeneralContext from "./GeneralContext"; // YE ADD KARO
 
 const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
-  
-  // Context se functions extract karo
+
+  const API_BASE = process.env.REACT_APP_BACKEND_URL || "http://localhost:3002";
+
   const { openBuyWindow, openSellWindow } = useContext(GeneralContext);
 
   useEffect(() => {
