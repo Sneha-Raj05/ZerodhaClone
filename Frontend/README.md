@@ -43,8 +43,8 @@ Key Elements
 - Mobile hamburger menu
 - Smooth scrolling effects
 
-## To start the server
-- Write on the terminal = npm start
+## Frontend URL
+http://zerodhaclonefrontend.vercel.app
 
 Images Related to Frontend Part
 
