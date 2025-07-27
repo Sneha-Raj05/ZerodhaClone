@@ -35,10 +35,12 @@ https://zerodha-clone-brown-delta.vercel.app/
 
 ## Images Related to the Dashboard Part
 1- Home Page
-<img width="1767" height="905" alt="Screenshot 2025-07-22 185106" src="https://github.com/user-attachments/assets/d2ef05ba-d0dd-4317-94c1-e2bfe4950897" />
+<img width="1838" height="913" alt="Screenshot 2025-07-27 114858" src="https://github.com/user-attachments/assets/21cae8a1-71df-4017-b64c-86d4e6190042" />
+
 
 2- DoughnutChart and the Vertical Graph (Graphs)
-<img width="1891" height="920" alt="Screenshot 2025-07-22 190332" src="https://github.com/user-attachments/assets/be0efea0-9f7a-4f27-97a3-6188a30582ee" />
+<img width="1902" height="918" alt="Screenshot 2025-07-27 114009" src="https://github.com/user-attachments/assets/2e4d4e75-16f7-4613-959f-e1e7f966d3a5" />
+
 
 
 
