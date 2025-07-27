@@ -21,4 +21,6 @@ Backend API for Zerodha trading platform clone built with Node.js and Express.
 - Middleware: CORS, Body-parser
 - Environment Management: dotenv
 
+## Backend URL
+http://zerodhaclonebackend-mwbxrlmtf-sneha-raj05s-projects.vercel.app
 
