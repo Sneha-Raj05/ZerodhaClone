@@ -30,11 +30,8 @@ A modern, responsive trading dashboard application built for portfolio managemen
 - npm 
 - Git
 
-## To start the server
-- Write on the Terminal = npm start
-- To view the Bar Graph part, you need to simulatneously start both the server 
-i.e Backend and the Dashboard Part
-- To run the Terminal in the Dashboard part first write cd/frontend2 and then start the server using npm start.
+## Dashboard URL 
+https://zerodha-clone-brown-delta.vercel.app/
 
 ## Images Related to the Dashboard Part
 1- Home Page
