@@ -8,16 +8,20 @@ const SellActionWindow = ({ uid }) => {
   const [stockQuantity, setStockQuantity] = useState(1);
   const [stockPrice, setStockPrice] = useState(0.0);
   
-  // YE LINE ADD KARO - useContext hook use karo
   const { closeSellWindow } = useContext(GeneralContext);
   
-  const handleSellClick = () => {
-    axios.post("http://localhost:3002/newOrder", {
-      name: uid,
-      qty: stockQuantity,
-      price: stockPrice,
-      mode: "SELL",
-    });
+
+const API_BASE = process.env.REACT_APP_BACKEND_URL || "http://localhost:3002";
+
+const handleSellClick = () => {
+  axios.post(`${API_BASE}/newOrder`, {
+    name: uid,
+    qty: stockQuantity,
+    price: stockPrice,
+    mode: "SELL",
+  });
+  closeSellWindow();
+};
 
     closeSellWindow();
   };
