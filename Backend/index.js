@@ -210,6 +210,17 @@ app.post('/newOrder', async (req, res) => {
   res.send("Order saved!");
 });
 
+app.get('/', (req, res) => {
+  res.json({ 
+    message: 'Zerodha Clone Backend API is running!',
+    endpoints: [
+      'GET /allHoldings - Get all holdings',
+      'GET /allPositions - Get all positions', 
+      'POST /newOrder - Create new order'
+    ]
+  });
+});
+
 app.listen(PORT, () => {
   console.log("App started!");
   mongoose.connect(uri);
